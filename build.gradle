@@ -24,11 +24,11 @@ dependencies {
 
     // REST Assured
     testImplementation 'io.rest-assured:rest-assured:5.3.2'
-    implementation 'io.rest-assured:rest-assured:5.3.2'
+
 
 
     // DataFaker (аналог JavaFaker)
-    implementation 'com.github.javafaker:javafaker:1.0.2'
+    testImplementation 'com.github.javafaker:javafaker:1.0.2'
 
     // Lombok
     compileOnly 'org.projectlombok:lombok:1.18.28'
@@ -37,7 +37,7 @@ dependencies {
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.28'
 
     // Gson
-    implementation 'com.google.code.gson:gson:2.10.1'
+    testImplementation 'com.google.code.gson:gson:2.10.1'
 
     // Дополнительно для REST Assured (если нужна интеграция с Gson)
     testImplementation 'io.rest-assured:json-path:5.3.2'

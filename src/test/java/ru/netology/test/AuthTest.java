@@ -4,15 +4,14 @@ import com.codeborne.selenide.Condition;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import ru.netology.domain.DataGenerator;
 
 import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
-import static ru.netology.domain.DataGenerator.Registration.getRegisteredUser;
-import static ru.netology.domain.DataGenerator.Registration.getUser;
-import static ru.netology.domain.DataGenerator.getRandomLogin;
-import static ru.netology.domain.DataGenerator.getRandomPassword;
+import static ru.netology.test.DataGenerator.Registration.getRegisteredUser;
+import static ru.netology.test.DataGenerator.Registration.getUser;
+import static ru.netology.test.DataGenerator.getRandomLogin;
+import static ru.netology.test.DataGenerator.getRandomPassword;
 
 
 public class AuthTest {
